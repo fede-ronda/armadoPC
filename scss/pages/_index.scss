@@ -1,0 +1,42 @@
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 50px 10px;
+
+
+    &__componentes{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        background-color: $color-gris3;
+        border: 1px solid $color-blanco;
+        border-radius: 10px;
+        width: 30vw;
+        height: 100vh;
+        }
+        
+    &__componentes--tarjeta{
+        background-color: $color-gris1;
+        border: 1px solid $color-blanco;
+        border-radius: 10px;
+        width: 95%;
+        height: 15vh;
+    }
+
+    &__componentes--titulo{
+        text-align: center;
+        color: red;
+    }
+
+
+    &__catalogo{
+        background-color: $color-gris3;
+        border: 1px solid $color-blanco;
+        border-radius: 10px;
+        width: 70vw;
+        height: 100vh;
+    }
+}

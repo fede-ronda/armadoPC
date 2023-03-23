@@ -1,0 +1,34 @@
+.nombre{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    height: 20px;
+    width: 100%;
+    background-color: $color-gris5;
+
+
+    &__titulo{
+        color: #fff;
+        font-size: 12px;
+        margin-right: 10px;
+    }
+
+    &__titulo:hover{
+        color: yellow;
+    }
+
+}
+
+.nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    background-color: $color-gris4;
+
+    &__titulo{
+        color: #fff;
+    }
+}
+
