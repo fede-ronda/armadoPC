@@ -1,0 +1,23 @@
+{
+  "name": "armado-pc",
+  "version": "1.0.0",
+  "description": "scss",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile:sass":"node-sass scss/main.scss css/style.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fede-ronda/armadoPC.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fede-ronda/armadoPC/issues"
+  },
+  "homepage": "https://github.com/fede-ronda/armadoPC#readme",
+  "dependencies": {
+    "node-sass": "^8.0.0"
+  }
+}
