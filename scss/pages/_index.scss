@@ -16,14 +16,16 @@
         border-radius: 10px;
         width: 30vw;
         height: 100vh;
+        padding: 10px 0;
         }
         
     &__componentes--tarjeta{
+        display: flex;
         background-color: $color-gris1;
         border: 1px solid $color-blanco;
         border-radius: 10px;
         width: 95%;
-        height: 15vh;
+        height: 10vh;
     }
 
     &__componentes--titulo{
@@ -33,10 +35,36 @@
 
 
     &__catalogo{
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        padding: 10px 10px;
         background-color: $color-gris3;
         border: 1px solid $color-blanco;
         border-radius: 10px;
         width: 70vw;
         height: 100vh;
+    }
+
+    &__catalogo--tarjeta{
+        display: flex;
+        justify-content: center;
+        background-color: $color-gris1;
+        border: 1px solid $color-blanco;
+        border-radius: 10px;
+        width: 100%;
+        height: 200px;
+    }
+
+    &__catalogo--tarjeta:hover{
+        -webkit-box-shadow: 0px 0px 4px 2px #FF00BD; 
+        box-shadow: 0px 0px 4px 2px #FF00BD;
+        border: 2px solid #ffebfa;
+    }
+
+    &__catalogo--titulo{
+        display: flex;
+        align-items: center;
+        
     }
 }
